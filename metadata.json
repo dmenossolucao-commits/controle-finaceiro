@@ -1,0 +1,6 @@
+{
+  "name": "Controle Financeiro",
+  "description": "Gestão financeira pessoal e empresarial com análise inteligente de recibos via IA e relatórios em PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
