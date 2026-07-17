@@ -1,48 +1,17 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    <title>Psicóloga Erica Costa | Atendimento Psicológico Online</title>
+    <meta name="description" content="Atendimento psicológico online com acolhimento, ética e cuidado. Agende sua consulta com a Psicóloga Erica Costa." />
+    <meta name="keywords" content="psicóloga, erica costa, psicoterapia online, terapia online, ansiedade, estresse, autoestima, saúde mental, bem-estar" />
+    <meta name="author" content="Psicóloga Erica Costa" />
+    <meta property="og:title" content="Psicóloga Erica Costa | Atendimento Psicológico Online" />
+    <meta property="og:description" content="Atendimento psicológico online com acolhimento, ética e cuidado. Agende sua consulta com a Psicóloga Erica Costa." />
+    <meta property="og:type" content="website" />
   </head>
   <body>
-    <style>
-      @media print {
-        #error-overlay {
-          display: none !important;
-        }
-      }
-    </style>
-    <div id="error-overlay" style="display:none; padding: 20px; background: #fef2f2; color: #991b1b; border: 2px solid #f87171; margin: 20px; font-family: monospace; border-radius: 8px; font-size: 14px; white-space: pre-wrap; word-break: break-all; z-index: 999999; position: relative;">
-      <h3 style="margin-top:0; color:#dc2626; font-size:16px;">⚠️ Erro de Inicialização do Aplicativo</h3>
-      <div id="error-message"></div>
-    </div>
-    <script>
-      window.addEventListener('error', function(event) {
-        var msgStr = event.message || '';
-        if (msgStr.indexOf('WebSocket') !== -1 || msgStr.indexOf('websocket') !== -1 || msgStr.indexOf('vite') !== -1) {
-          return;
-        }
-        var overlay = document.getElementById('error-overlay');
-        var msg = document.getElementById('error-message');
-        if (overlay && msg) {
-          overlay.style.display = 'block';
-          msg.textContent += '\nError: ' + event.message + '\nAt: ' + event.filename + ':' + event.lineno + ':' + event.colno + '\nStack: ' + (event.error ? event.error.stack : 'N/A') + '\n';
-        }
-      });
-      window.addEventListener('unhandledrejection', function(event) {
-        var reasonStr = (event.reason && (event.reason.message || event.reason.stack || String(event.reason))) || '';
-        if (reasonStr.indexOf('WebSocket') !== -1 || reasonStr.indexOf('websocket') !== -1 || reasonStr.indexOf('vite') !== -1) {
-          return;
-        }
-        var overlay = document.getElementById('error-overlay');
-        var msg = document.getElementById('error-message');
-        if (overlay && msg) {
-          overlay.style.display = 'block';
-          msg.textContent += '\nUnhandled Promise Rejection: ' + event.reason + '\nStack: ' + (event.reason ? event.reason.stack : 'N/A') + '\n';
-        }
-      });
-    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
