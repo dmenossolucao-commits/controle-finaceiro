@@ -1,10 +1,10 @@
 {
-  "projectId": "mentecare-f8e87",
-  "appId": "1:21164504982:web:663e50b544865b0b618fb7",
-  "apiKey": "AIzaSyAaGtveTmVdyS-DjRolt1-NtnrX8FdXhQo",
-  "authDomain": "mentecare-f8e87.firebaseapp.com",
-  "firestoreDatabaseId": "(default)",
-  "storageBucket": "mentecare-f8e87.firebasestorage.app",
-  "messagingSenderId": "21164504982",
-  "measurementId": "G-XCER7E8RER"
+  "projectId": "poised-union-lk8sk",
+  "appId": "1:845910316046:web:cae858910e82b2d0b7985f",
+  "apiKey": "AIzaSyBhSMx7lDGIlGu7yeZFbDYQWA1upA2vwJM",
+  "authDomain": "poised-union-lk8sk.firebaseapp.com",
+  "firestoreDatabaseId": "ai-studio-controlefinancei-e2408037-463e-44c3-bb76-9a797e34d24d",
+  "storageBucket": "poised-union-lk8sk.firebasestorage.app",
+  "messagingSenderId": "845910316046",
+  "measurementId": ""
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Psicóloga Erica Costa",
-  "description": "Site institucional moderno, elegante e acolhedor para a Psicóloga Erica Costa, focado em atendimento psicológico online.",
+  "name": "Controle Financeiro",
+  "description": "Gestão financeira pessoal e empresarial com análise inteligente de recibos via IA e relatórios em PDF.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
